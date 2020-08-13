@@ -5,7 +5,7 @@
 
 
 .title-team-name {
-    color: var(--primary-title-color);
+    color: $primary-title-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -14,7 +14,7 @@
 }
 
 .title-team-item{
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -29,7 +29,7 @@
     width:270px;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 94px;
-    background: var(--primary-white-color);
+    background: $primary-white-color;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 21px;
@@ -56,7 +56,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--primary-white-color);
+    background-color: $primary-white-color;
     background-size: 22px, contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,8 +73,8 @@
 
 
 .team-social-link:hover, .team-social-link:focus{
-    background-color:var(--accent-color);
-    fill: var(--primary-white-color);
+    background-color:$accent-color;
+    fill: $primary-white-color;
 }
 
 .team-social-link{

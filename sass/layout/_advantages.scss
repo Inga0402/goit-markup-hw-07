@@ -22,7 +22,7 @@
         margin-bottom: 10px;
     }
     .advantages-list .advantages-title{
-        color: var(--primary-title-color);
+        color: $primary-title-color;
         font-family: Roboto;
         font-weight: bold;
         font-size: 14px;
@@ -39,7 +39,7 @@
     
     }
     .advantages-list .advantages-text {
-        color: var(--primary-text-color);
+        color: $primary-text-color;
         font-family: Roboto;
         font-size: 14px;
         line-height: 1.7;

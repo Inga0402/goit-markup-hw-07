@@ -17,7 +17,7 @@
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    color: var(--title-text-color);
+    color: $title-text-color;
 }
 
 .list {
@@ -57,8 +57,8 @@
 
 
 .clients-item-link:hover, .clients-item-link:focus {
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    fill: $accent-color;
+    border: 1px solid $accent-color;
 }
 
 .clients-item:not(:last-child){
