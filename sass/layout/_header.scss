@@ -1,0 +1,135 @@
+  /* HEADER */
+.header{
+    border-bottom: 1px solid #ECECEC;
+    max-width: 100%;
+   
+    
+} 
+
+.header .container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-utilus {
+    display: flex;
+}
+
+.auth-nav {
+    display: flex;  
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+.menu-nav-list {
+    display: flex;
+  
+}
+
+.menu-nav-list-item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.menu-nav-list-item-link {
+    color: var(--primary-title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+     position: relative;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-nav-list-item-link.current{
+ color: var(--accent-color);
+}
+
+ .menu-nav-list-item-link.current::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background:var(--accent-color);
+    border-radius: 2px;
+    margin-top: 28px;
+    position: absolute;
+  
+ } 
+
+.menu-nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.logo {
+    color: #000000 ;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+.logo-accent{
+    color: var(--accent-color);
+}
+
+
+
+.menu-nav-list .menu-nav-list-item-link:hover {
+    color: var(--accent-color);
+}
+
+.auth-nav-link:hover, .auth-nav-link:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+.auth-nav-icon:hover, .auth-nav-icon:focus{
+    color: var(--accent-color);
+    fill: var(--accent-color);
+} 
+ 
+.auth-nav-link{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    fill: var(--primary-text-color);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} 
+.auth-nav-icon{
+    margin-right: 10px;
+    color: var(--primary-text-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
