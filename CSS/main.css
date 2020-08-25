@@ -232,16 +232,13 @@ max-width: 100%;
 }
 
 .modal-form-option-label {
+  display: flex;
   margin-bottom: 30px;
 }
 
 .modal-form-option-span a {
   color: #2196F3;
   text-decoration: underline;
-}
-
-.modal-form-option-label {
-  display: flex;
 }
 
 .modal-form-checkbox:checked + .modal-form-option-span {
