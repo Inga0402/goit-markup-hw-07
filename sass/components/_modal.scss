@@ -115,14 +115,16 @@ max-width: 100%;
     letter-spacing: 0.01em;
     color: $primary-title-color;
 
+    &:focus {
+        border-color: $accent-color;
+    }
+    &:focus::placeholder {
+        color: $accent-color;
+      }
 }
-.modal-form-comment:focus {
-    border-color: $accent-color;
-  }
+
   
-  .modal-form-comment:focus::placeholder {
-    color: $accent-color;
-  }
+  
 
 .modal-comment-span{
     font-weight: normal;
