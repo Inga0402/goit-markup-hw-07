@@ -33,14 +33,14 @@
    
 }
 
-.what-we-are-doing-picture:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .what-we-are-doing-picture {
     width: 370px;
-   
-}
-.what-we-are-doing-picture{
     position: relative;
+   
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
+

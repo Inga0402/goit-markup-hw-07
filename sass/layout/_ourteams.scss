@@ -59,6 +59,7 @@
     height: 44px;
     border-radius: 50%;
     background-color: $primary-white-color;
+    fill: #AFB1B8;
     background-size: 22px, contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,19 +77,10 @@
         background-color:$accent-color;
         fill: $primary-white-color;
     }
-}
-
-
-, .team-social-link{
-    
-}
-
-.team-social-link{
-    display: flex;
-    justify-content: center;
-    fill: #AFB1B8;
 
 }
+
+
 .team-social-link-picture {
     width: 20px;
     height: 20px;

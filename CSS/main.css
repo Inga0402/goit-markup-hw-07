@@ -618,16 +618,13 @@ h1 {
   justify-content: center;
 }
 
-.what-we-are-doing-picture:not(:last-child) {
-  margin-right: 30px;
-}
-
 .what-we-are-doing-picture {
   width: 370px;
+  position: relative;
 }
 
-.what-we-are-doing-picture {
-  position: relative;
+.what-we-are-doing-picture:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Our Teams */
@@ -687,6 +684,7 @@ h1 {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+  fill: #AFB1B8;
   background-size: 22px, contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -702,12 +700,6 @@ h1 {
 .team-social-link:hover, .team-social-link:focus {
   background-color: #2196F3;
   fill: #ffffff;
-}
-
-.team-social-link {
-  display: flex;
-  justify-content: center;
-  fill: #AFB1B8;
 }
 
 .team-social-link-picture {
