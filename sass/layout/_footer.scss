@@ -93,6 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer-center-social-link {
@@ -113,6 +114,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, 
+    &:focus{
+        color: $primary-white-color;
+        background-color: $accent-color;
+    }
 }
 
 .footer-center-social-link-picture {
@@ -120,10 +127,7 @@
     height: 20px;
 }
 
-.footer-center-social-link:hover, .footer-center-social-link:focus{
-    color: $primary-white-color;
-    background-color: $accent-color;
-}
+
 
  
 .button-footer{ 
