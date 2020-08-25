@@ -53,11 +53,14 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 10px;
+
+    &:hover,
+    &:focus{
+        color: $accent-color;
+    }
+    
 }
 
-.contacts-list-item:hover, .contacts-list-item:focus{
-    color: $accent-color;
-}
 
 
 
