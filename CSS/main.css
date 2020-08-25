@@ -1050,6 +1050,10 @@ h1 {
   margin-right: 0px;
 }
 
+.works-item:hover .portfolio-item-description {
+  transform: translateX(0);
+}
+
 .works-img {
   display: block;
   width: 370px;
@@ -1064,8 +1068,7 @@ h1 {
   font-style: normal;
 }
 
-.works-link:hover
-.works-link:focus {
+.works-link:hover, .works-link:focus {
   color: #757575;
 }
 
@@ -1117,9 +1120,5 @@ h1 {
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.works-item:hover .portfolio-item-description {
-  transform: translateX(0);
 }
 /*# sourceMappingURL=main.css.map */
