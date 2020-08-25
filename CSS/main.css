@@ -142,8 +142,7 @@ max-width: 100%;
   fill: #212121;
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
+.modal-icon:hover, .modal-icon:focus {
   fill: #2196F3;
 }
 
