@@ -380,6 +380,10 @@ max-width: 100%;
   padding-bottom: 32px;
 }
 
+.menu-nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .menu-nav-list-item-link {
   color: #212121;
   font-weight: 500;
@@ -404,10 +408,6 @@ max-width: 100%;
   border-radius: 2px;
   margin-top: 28px;
   position: absolute;
-}
-
-.menu-nav-list-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 ul {

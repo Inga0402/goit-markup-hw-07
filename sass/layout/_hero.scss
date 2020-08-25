@@ -5,7 +5,7 @@ h1 {
 }
 
 .hero-title {
-    color: $primary-white-color ;
+    color: $primary-white-color;
     /* background: rgba(47, 48, 58, 0.8);  */
     font-weight: 900;
     font-size: 44px;
@@ -66,12 +66,12 @@ h1 {
     transition-property: background-color;
     transition: all 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        background-color: $primary-white-color;
+        color: $accent-color;
+        transition: all 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
-.service-btn:hover {
-    background-color: $primary-white-color;
-    color: $accent-color;
-    transition: all 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
- 
